@@ -1,0 +1,39 @@
+# Nmap 7.95 scan initiated Mon Aug  4 18:40:45 2025 as: /usr/lib/nmap/nmap --privileged -sS -oN result.txt 172.16.2.0/24
+Nmap scan report for 172.16.2.1
+Host is up (0.0076s latency).
+Not shown: 996 closed tcp ports (reset)
+PORT   STATE SERVICE
+21/tcp open  ftp
+22/tcp open  ssh
+53/tcp open  domain
+80/tcp open  http
+MAC Address: 20:0C:86:E9:35:A0 (GX India Pvt)
+
+Nmap scan report for 172.16.2.33
+Host is up (0.082s latency).
+All 1000 scanned ports on 172.16.2.33 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: AE:D3:35:1E:CA:AD (Unknown)
+
+Nmap scan report for 172.16.2.35
+Host is up (0.018s latency).
+Not shown: 996 closed tcp ports (reset)
+PORT      STATE SERVICE
+1216/tcp  open  etebac5
+3000/tcp  open  ppp
+3001/tcp  open  nessus
+11111/tcp open  vce
+MAC Address: 78:5D:C8:94:09:2F (LG Electronics)
+
+Nmap scan report for 172.16.2.37
+Host is up (0.014s latency).
+All 1000 scanned ports on 172.16.2.37 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: C2:3E:25:5F:87:F1 (Unknown)
+
+Nmap scan report for 172.16.2.34
+Host is up (0.000013s latency).
+All 1000 scanned ports on 172.16.2.34 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+
+# Nmap done at Mon Aug  4 18:41:14 2025 -- 256 IP addresses (5 hosts up) scanned in 28.22 seconds
